@@ -1,0 +1,33 @@
+#screen {
+    display: flex;
+    justify-content: center;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+input {
+    display: block;
+    padding: 2rem;
+    width: 15rem;
+    background-color: #00AFB9;
+    border-width: 0;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#logo-text {
+    color: #00AFB9;
+    
+}
