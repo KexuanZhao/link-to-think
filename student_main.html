@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="openings.css">
+    <title>UR Research Openings</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headbar">
+            <div class="title">UR Research Opening</div>
+            <div class="menu"><i class="material-icons">menu</i>
+                <ul class="submenu">
+                    <li id="name">XXXStudentXXX</li>
+                    <li>Profile</li>
+                    <li>Starred Jobs</li>
+                    <li>My Applications</li>
+                    <li>Messages</li>
+                    <li>Home</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+        </div>
+        <div class="searchbar">
+            <input type="text" placeholder="Search..." id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="filters">
+            <div class="filter"> Skill:
+                <select id="skill-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Programming</option>
+                    <option>Modeling</option>
+                </select>
+            </div>
+            <div class="filter"> Department:
+                <select id="department-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Computer Science</option>
+                    <option>Biology</option>
+                </select>
+            </div>
+            <div class="filter"> Commitment:
+                <select id="commitment-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>1-3 hr/wk</option>
+                    <option>3-6 hr/wk</option>
+                    <option>6-10 hr/wk</option>
+                </select>
+            </div>
+            <div class="filter"> Compensation:
+                <select id="compensation-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>0.5 cred</option>
+                    <option>1 cred</option>
+                    <option>Monetary</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="research-card">
+                <div class="research-header">
+                    <div class="research-title">Research Assistant - AI in Security</div>
+                    <div class="research-actions">
+                        <button class="apply-btn">Apply</button>
+                        <button class="icon-btn"><i class="material-icons star-icon">star</i></button>
+                    </div>
+                </div>
+                <div class="research-details">
+                    <div><span class="research-info">Department:</span> <span>Computer Science</span></div>
+                    <div><span class="research-info">Skills:</span> <span>Python, C++, LLM</span></div>
+                    <div><span class="research-info">Pre-requisite:</span> <span>CS221</span></div>
+                    <!-- Needed to add style for icon here to change its font size -->
+                    <div><span class="research-info">Professor:</span> <span>Dr. SZ <button class="icon-btn email"><i class="material-icons mail-icon"style="font-size:1rem;">mail</i></button></span></div>
+                    <div><span class="research-info">Office Location:</span> <span>Jepson 300</span></div>
+                    <div><span class="research-info">Date posted:</span> <span>9/15/2024</span></div>
+                </div>                
+                <div class="research-description">
+                    Join Dr. SZ's research team in exploring cutting-edge applications of AI in the field of cybersecurity. This position involves developing algorithms and tools to detect, prevent, and mitigate cyber threats using AI technologies. You will be responsible for implementing and testing machine learning models, analyzing security data, and contributing to the overall research goals of the lab. Ideal candidates have strong programming skills, problem-solving abilities, and a foundational understanding of AI and security principles.
+                </div>
+                <div><button class="icon-btn expand-btn"><i class="material-icons"style="font-size:1.5rem;">add</i></button></button></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
