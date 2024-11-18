@@ -16,7 +16,8 @@
     gap: 1rem;
     margin-top: 1rem;
 }
-input {
+
+.login-buttons {
     display: block;
     padding: 2rem;
     width: 15rem;
@@ -29,5 +30,60 @@ input {
 
 #logo-text {
     color: #00AFB9;
-    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.logo-corner {
+    display: absolute;
+    margin-left: -1rem;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.input-label {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.text-box {
+    align-self: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    border-radius: 1rem;
+}
+
+.final-button {
+    margin-top: 2rem;
+    width: 15rem;
+    background-color: #00AFB9;
+    border-width: 0;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.requisite {
+    color: gray;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#reset {
+    align-self: center;
 }
