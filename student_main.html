@@ -10,6 +10,7 @@
 <body>
     <div class="container">
         <div class="headbar">
+            <!-- Title Bar with menu on the right end -->
             <div class="title">UR Research Opening</div>
             <div class="menu"><i class="material-icons">menu</i>
                 <ul class="submenu">
@@ -23,11 +24,16 @@
                 </ul>
             </div>
         </div>
+
         <div class="searchbar">
+            <!-- Search Bar -->
             <input type="text" placeholder="Search..." id="search-input">
             <button id="search-button">Search</button>
         </div>
+
+
         <div class="filters">
+            <!-- Filtering Options -->
             <div class="filter"> Skill:
                 <select id="skill-filter" class="innerfilter">
                     <option>None</option>
@@ -60,31 +66,10 @@
             </div>
         </div>
 
-        <div class="content">
-            <div class="research-card">
-                <div class="research-header">
-                    <div class="research-title">Research Assistant - AI in Security</div>
-                    <div class="research-actions">
-                        <button class="apply-btn">Apply</button>
-                        <button class="icon-btn"><i class="material-icons star-icon">star</i></button>
-                    </div>
-                </div>
-                <div class="research-details">
-                    <div><span class="research-info">Department:</span> <span>Computer Science</span></div>
-                    <div><span class="research-info">Skills:</span> <span>Python, C++, LLM</span></div>
-                    <div><span class="research-info">Pre-requisite:</span> <span>CS221</span></div>
-                    <!-- Needed to add style for icon here to change its font size -->
-                    <div><span class="research-info">Professor:</span> <span>Dr. SZ <button class="icon-btn email"><i class="material-icons mail-icon"style="font-size:1rem;">mail</i></button></span></div>
-                    <div><span class="research-info">Office Location:</span> <span>Jepson 300</span></div>
-                    <div><span class="research-info">Date posted:</span> <span>9/15/2024</span></div>
-                </div>                
-                <div class="research-description">
-                    Join Dr. SZ's research team in exploring cutting-edge applications of AI in the field of cybersecurity. This position involves developing algorithms and tools to detect, prevent, and mitigate cyber threats using AI technologies. You will be responsible for implementing and testing machine learning models, analyzing security data, and contributing to the overall research goals of the lab. Ideal candidates have strong programming skills, problem-solving abilities, and a foundational understanding of AI and security principles.
-                </div>
-                <div><button class="icon-btn expand-btn"><i class="material-icons"style="font-size:1.5rem;">add</i></button></button></div>
-            </div>
+        <div class="content"> 
+            <!-- Filled in with JavaScript -->
         </div>
     </div>
-    
+    <script src="main_page_script.js" type="module"></script>
 </body>
 </html>
