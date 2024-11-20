@@ -1,0 +1,35 @@
+.appli {
+    border: 2px solid #00AFB9;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.appli-line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-info, .questions {
+    list-style-type: none;
+    padding: 0; 
+    margin-left: 50px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#description {
+    margin-right:50px;
+}
+
+#answer {
+    margin-right:50px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-right: 50px;
+}
+
