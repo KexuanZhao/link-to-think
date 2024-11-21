@@ -6,44 +6,34 @@
       rel="stylesheet">
 </head>
 <body>
-<div class="main-container">
-   <!-- Contacts Section -->
-   <div class="contacts">
-       <p>Tom Hanks</p>
-       <p>Jimmy De</p>
-       <p class="selected">Win Aung</p>
-       <p>Paean Luby</p>
-       <p>Sophie Zhao</p>
-   </div>
+   <script src="messages.js"></script>
+   <div class="message-header">Messages</div>
+   <div class="message-subheader">Contacts</div>
+   <div class="main-container">
+      <div class="contacts">
+         <p>Tom Hanks</p>
+         <p>Jimmy De</p>
+         <!-- In javascript, create another paragraph with name of student clicked on-->
+      </div>
 
-   <!-- Chat Section -->
    <div class="chat">
-       <!-- Chat Header -->
-       <div class="chat-header">StudentX</div>
-       <!-- Messages Area -->
        <div class="messages">
-           <div class="message user">
-               Can you provide more details about the virtual Reality Developer role?
-           </div>
-           <div class="message response">
-               You would be creating immersive virtual experiences using 3D modeling, programming, and VR technologies for platforms. Let me know if you’re interested.
-           </div>
-       </div>
-
-       <!-- Input Box -->
-       <div class="input-box">
-           <input type="text" placeholder="Type a message..." />
-           <button>Send</button>
-       </div>
+         <div class="message-response">
+            
+            <!--Got it! Thank you. I will definitely consider applying.-->
+        </div>
+        <div class="message-sender">
+         <input class = "text-box message-type" type = "text" value = "Tt">
+         <div class="material-icons">send</div>
+      </div>
    </div>
-
-   <!-- Menu Dropdown -->
+<!--
    <div class="menu-dropdown">
        <p>Profile</p>
        <p>Applications</p>
        <p>Messages</p>
        <p>Home</p>
        <p>Logout</p>
-   </div>
+   </div>-->
 </div>
 </body>
