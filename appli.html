@@ -12,12 +12,10 @@
             <!-- <div>menu sign</div> -->
         </div>
         <div class="appli">
-            <div class="appli-line1">
-                <!-- <a href="albums.html" class="a-link-to-album"></a> -->
+            <a href="student_main.html">
                 <div id="back-btn"><i class="material-icons">arrow_back</i></div>
-                <div><b>Application</b></div>
-                <div id="progress-info">Progress saved at 12:31PM</div>
-            </div>
+            </a>
+            <div id="title-app"><b>Application</b></div>
             <ul class="job-info">
                 <li><b>Lab Assistant - Computational Chemistry</b></li>
                 <li>Department: Chemistry</li>
@@ -52,11 +50,26 @@
             </ol>
             <div class="btns">
                 <input type="button" value="Save Progress" id="save-progress">
+                <a href="appli_submission.html"></a>
                 <input type="button" value="Submit Application" id="submit-application">
+                
             </div>
         </div>
-        <script src="script.js"></script>
-      
-
+        <div id="submission-modal" class="modal">
+            <div class="modal-content">
+                <div id="msg-title"><b>Successful submission</b></div>
+                <div id="msg-content">
+                    <div>You have successfully submitted your application! You can view your submission in "My Application" page anytime.</div>
+                </div>
+                <a href="student_main.html"><button id="close-modal">Close</button></a>
+            </div>
+        </div>
+        <div id="progress-modal" class="modal">
+            <div class="modal-content">
+                <div id="progress-info"></div>
+                <button id="close-progress-modal">Close</button>
+            </div>
+        </div>
+        <script src="appli.js"></script>
     </body>
 </html>
