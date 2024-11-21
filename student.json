@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Sophie Zhao",
+        "year": "Senior",
+		"major": "Computer Science",
+        "skill": "Python",
+        "period": "Summer",
+        "email": "sophie.zhao@richmond.edu",
+        "description": "I'm a student with a love for both computer science and the sciences, and I'm really passionate about experimental design and interdisciplinary research. I'm excited to apply my skills in an industry setting, where I hope to join a team using CS to tackle challenges in the pharmaceutical world and help develop new, innovative treatments. I'm also actively looking for research opportunities this summer to gain hands-on experience and further expand my knowledge."
+	},
+
+    {
+		"name": "Win Aung",
+        "year": "Freshman",
+		"major": "Computer Science",
+        "skill": "Python",
+        "period": "Summer",
+        "email": "win.aung@richmond.edu",
+        "description": "I am..."
+	},
+
+    {
+        "name": "Paean Luby",
+        "year": "Sophomore",
+		"major": "Psychology",
+        "skill": "VR",
+        "period": "Spring",
+        "email": "paean.luby@richmond.edu",
+        "description": "I am..."
+    },
+
+    {
+        "name": "Daniel Bostan",
+        "year": "Junior",
+		"major": "Psychology",
+        "skill": "Therapy",
+        "period": "Fall",
+        "email": "daniel.bostan@richmond.edu",
+        "description": "I am..."
+    }
+
+
+
+]

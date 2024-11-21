@@ -30,7 +30,7 @@
 }
 
 .submenu {
-    background-color: lightgray;
+    background-color: #69e3e9;
     position: absolute;
     display: none;
     padding: 0;
@@ -48,6 +48,7 @@
 }
 
 #name {
+    white-space: nowrap;
     border-bottom: 1px solid black;
 }
 
