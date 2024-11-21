@@ -30,7 +30,7 @@
 }
 
 .submenu {
-    background-color: lightpink;
+    background-color: #69e3e9;
     position: absolute;
     display: none;
     padding: 0;
@@ -48,11 +48,17 @@
 }
 
 #name {
+    white-space: nowrap;
     border-bottom: 1px solid black;
 }
 
 .menu:hover .submenu {
     display: block;
+}
+
+.submenu-item:hover {
+    cursor: pointer;
+    color:#00AFB9;
 }
 
 
@@ -77,7 +83,7 @@
 }
 
 #search-input:focus {
-    border-color: lightseagreen;
+    border-color: #00AFB9;
 }
 
 #search-button {
@@ -91,7 +97,7 @@
 }
 
 #search-button:hover {
-    background-color: lightseagreen;
+    background-color: #00AFB9;
 }
 
 /* Filters styling */
@@ -101,8 +107,8 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     padding: 10px 0;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .filter {
@@ -124,12 +130,12 @@
 }
 
 .filter select:hover {
-    border-color: lightseagreen;
+    border-color: #00AFB9;
 }
 
 /* Research Content styling */
 .research-card {
-    border: 1px solid black;
+    border: 1px solid #00AFB9;
     margin-bottom: 1rem;
     border-radius: 5px;
     padding: 0.5rem;
@@ -174,6 +180,10 @@
 .star-icon {
     -webkit-text-stroke: 1px black;
     color: white;
+}
+
+.star-icon:hover {
+    -webkit-text-stroke: 1px gold;
 }
 
 .email{
