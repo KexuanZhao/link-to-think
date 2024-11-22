@@ -6,6 +6,7 @@ body {
 
 .container {
     margin-bottom: 50px;
+    padding-left: 1rem;
 }
 
 .card {
@@ -57,4 +58,61 @@ body {
 
 .view-btn:hover {
     background-color: #555555;
+}
+
+/* Headbar styling */
+.headbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Menu styling */
+.menu {
+    text-align: right;
+    position: relative;
+}
+
+.submenu {
+    background-color: rgb(142, 232, 227);
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    list-style: none;
+    right: 0;
+}
+
+.submenu li {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: black;
+}
+
+#name {
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+.submenu-item {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu-item:hover {
+    cursor: pointer;
+    color:#00AFB9;
 }
