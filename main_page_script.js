@@ -86,7 +86,7 @@ function research_card_html(id, title, department, skills, prereq, professor, of
                 <div class="research-header">
                     <div class="research-title">${title}</div>
                     <div class="research-actions">
-                        <button class="apply-btn">Apply</button>
+                        <button class="apply-btn"><a class="apply-text" href="appli.html">Apply</a></button>
                         <button class="icon-btn star-btn"><i class="material-icons star-icon">star</i></button>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ function research_card_html(id, title, department, skills, prereq, professor, of
                     <div><span class="research-info">Skills:</span> <span>${skills}</span></div>
                     <div><span class="research-info">Pre-requisite:</span> <span>${prereq}</span></div>
                     <div><span class="research-info">Professor:</span> <span>${professor} 
-                        <button class="icon-btn email"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></button></span></div>
+                        <button class="icon-btn email"><a class="mail-text" href="student_messages.html"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></a></button></span></div>
                     <div><span class="research-info">Office Location:</span> <span>${office}</span></div>
                     <div><span class="research-info">Date posted:</span> <span>${date}</span></div>
                     <div><span class="research-info">Compensation:</span> <span>${compensation}</span></div>
