@@ -91,7 +91,7 @@ function research_card_html(id, name, year, major, skills, period, email, descri
                     <div><span class="research-info">Skills:</span> <span>${skills}</span></div>
                     <div><span class="research-info">Period:</span> <span>${period}</span></div>
                     <div><span class="research-info">Email:</span> <span>${email} 
-                        <button class="icon-btn email"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></button></span></div>
+                        <button class="icon-btn email"><a class="mail-text" href="professor_messages.html"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></a></button></span></div>
                 </div>                
                 <div id="${id}-description" class="research-description" style="display: none;">
                     ${description}
