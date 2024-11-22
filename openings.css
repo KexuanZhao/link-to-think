@@ -52,10 +52,10 @@ body {
     padding: 0.5rem 1rem;
     text-align: center;
     color: black;
+    white-space: nowrap;
 }
 
 #name {
-    white-space: nowrap;
     border-bottom: 1px solid black;
 }
 
@@ -120,6 +120,7 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
+    background-color: #f9f9f9;
 }
 
 .filter {
