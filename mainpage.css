@@ -1,14 +1,11 @@
 #screen {
     display: flex;
     justify-content: center;
-    height: 250px;
 }
 .text-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
+    font-size: 6rem;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -19,28 +16,15 @@
     margin-top: 1rem;
 }
 
-.login-buttons-container {
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
-    gap: 10%;
-}
-
 .login-buttons {
+    display: block;
+    padding: 2rem;
+    width: 15rem;
     background-color: #00AFB9;
-    width: 10rem;
-    height: 4rem;
     border-width: 0;
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.login-buttons:hover {
-    background-color: #008B92;
-    transform: scale(1.05);
 }
 
 #logo-text {
@@ -59,136 +43,43 @@ a {
 }
 
 .input-label {
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     font-weight: normal;
 }
 
 .text-box {
     align-self: center;
-    width: 10rem;
-    height: 2rem;
-    border-radius: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    border-radius: 1rem;
 }
 
 .final-button {
     margin-top: 2rem;
-    width: 10rem;
-    height: 3rem;
+    width: 15rem;
     background-color: #00AFB9;
     border-width: 0;
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
+    padding: 1rem;
 }
 
 .requisite {
     color: gray;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
     text-decoration: underline;
 }
 
-#prompt-msg {
-    font-size: 1rem;
+p {
+    font-size: 2rem;
     font-weight: normal;
 }
 
 #reset {
     align-self: center;
-}
-
-.main-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr; 
-    gap: 2rem;
-}
-
-.contacts {
-    grid-column: 1; 
-    grid-row: 1; 
-    background-color: #f9f9f9;
-    border: 2px solid #00AFB9;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.chat {
-    grid-column: 2;
-    grid-row: 1;
-    display: grid;
-    grid-template-rows: auto 1fr auto; 
-    border: 2px solid #00AFB9; 
-    padding: 2rem;
-}
-
-.chat-header {
-    background-color: #fff;
-    font-weight: bold;
-    color: black;
-}
-
-
-.message-response {
-    background-color: #f8f8f8;
-    overflow-y: auto; 
-    padding: 1rem;
-    border-radius: 5rem;
-    width: fit-content;
-}
-
-.menu-dropdown {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 3rem;
-}
-
-.message-header {
-    font-family: sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    color: #00AFB9;
-}
-.message-subheader {
-    font-family: sans-serif;
-    margin-top: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.contacts {
-    font-family: sans-serif;
-}
-
-.message-sender {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    margin-top: 50%;
-}
-
-.message-type {
-    background-color: #4cd6de;
-    font-family: sans-serif;
-    text-align: left;
-    border: none;
-    display: relative;
-    bottom: 0;
-    margin-right: -2rem;
-    
-}
-#send-button {
-    padding: 1rem;
-    width: fit-content;
-    font-size: 2rem;
-    border-radius: 1rem;
-    margin-top: 2rem;
-    border-width: 0;
-    font-weight: bold;
 }
