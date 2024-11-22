@@ -123,7 +123,13 @@
     display: block;
 }
 
+.submenu-item {
+    text-decoration: none;
+    color: black;
+}
+
 .submenu-item:hover {
     cursor: pointer;
     color:#00AFB9;
 }
+
