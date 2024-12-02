@@ -22,10 +22,7 @@ function init() {
             research_info[index].title,
             research_info[index].department,
             research_info[index].skills,
-            research_info[index].prereq,
             research_info[index].professor,
-            research_info[index].office,
-            research_info[index].date,
             research_info[index].compensation,
             research_info[index].commitment,
             research_info[index].description
@@ -81,7 +78,7 @@ function attachStarListeners() {
     });
 }
 
-function research_card_html(id, title, department, skills, prereq, professor, office, date, compensation, commitment, description) {
+function research_card_html(id, title, department, skills, professor, compensation, commitment, description) {
     return `<div id="${id}" class="research-card">
                 <div class="research-header">
                     <div class="research-title">${title}</div>
@@ -93,11 +90,8 @@ function research_card_html(id, title, department, skills, prereq, professor, of
                 <div class="research-details">
                     <div><span class="research-info">Department:</span> <span>${department}</span></div>
                     <div><span class="research-info">Skills:</span> <span>${skills}</span></div>
-                    <div><span class="research-info">Pre-requisite:</span> <span>${prereq}</span></div>
                     <div><span class="research-info">Professor:</span> <span>${professor} 
                         <a class="mail-text" href="student_messages.html"><button class="icon-btn email"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></button></a></span></div>
-                    <div><span class="research-info">Office Location:</span> <span>${office}</span></div>
-                    <div><span class="research-info">Date posted:</span> <span>${date}</span></div>
                     <div><span class="research-info">Compensation:</span> <span>${compensation}</span></div>
                     <div><span class="research-info">Commitment:</span> <span>${commitment}</span></div>
                 </div>                

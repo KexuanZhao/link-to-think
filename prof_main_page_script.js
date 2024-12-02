@@ -24,7 +24,6 @@ function init() {
             student_info[index].major,
             student_info[index].skill,
             student_info[index].period,
-            student_info[index].email,
             student_info[index].description
         );
         global_id++;
@@ -77,10 +76,10 @@ function attachStarListeners() {
     });
 }
 
-function research_card_html(id, name, year, major, skills, period, email, description) {
+function research_card_html(id, name, year, major, skills, period, description) {
     return `<div id="${id}" class="research-card">
                 <div class="research-header">
-                    <div class="research-title">${name}</div>
+                    <div class="research-title">${name}<a class="mail-text" href="professor_messages.html"><button class="icon-btn email"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></button></a></div>
                     <div class="research-actions">
                         <button class="icon-btn star-btn"><i class="material-icons star-icon">star</i></button>
                     </div>
@@ -90,8 +89,6 @@ function research_card_html(id, name, year, major, skills, period, email, descri
                     <div><span class="research-info">Major:</span> <span>${major}</span></div>
                     <div><span class="research-info">Skills:</span> <span>${skills}</span></div>
                     <div><span class="research-info">Period:</span> <span>${period}</span></div>
-                    <div><span class="research-info">Email:</span> <span>${email} 
-                        <a class="mail-text" href="professor_messages.html"><button class="icon-btn email"><i class="material-icons mail-icon" style="font-size:1rem;">mail</i></button></a></span></div>
                 </div>                
                 <div id="${id}-description" class="research-description" style="display: none;">
                     ${description}
