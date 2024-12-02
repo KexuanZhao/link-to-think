@@ -1,7 +1,10 @@
+* {
+    font-family: sans-serif;
+}
 .appli {
     border: 2px solid #00AFB9;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 
 #back-btn {
@@ -88,6 +91,7 @@
 .title {
     font-size: 2rem;
     font-weight: bold;
+    margin-left: 12%;
 }
 
 /* Menu styling */
@@ -133,3 +137,11 @@
     color:#00AFB9;
 }
 
+#appli-title {
+    font-size: 1.2rem;
+    color: rgb(52, 125, 169);
+}
+
+#hr {
+    width: 88%;
+}

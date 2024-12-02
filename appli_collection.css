@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    font-family: sans-serif;
 }
 
 .container {
     margin-bottom: 50px;
     padding-left: 1rem;
+    margin-left: 12%;
 }
 
 .card {
@@ -72,6 +74,7 @@ body {
 .title {
     font-size: 2rem;
     font-weight: bold;
+    margin-left: 12%;
 }
 
 /* Menu styling */
