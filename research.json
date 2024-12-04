@@ -7,7 +7,7 @@
         "professor": "Dr. SZ",
         "office": "Jepson 300",
         "date": "9/15/2024",
-        "compensation": "0.5 cred",
+        "compensation": "0.5 unit",
         "commitment" : "4-6 hr/wk",
         "description": "Join Dr. SZ's research team in exploring cutting-edge applications of AI in the field of cybersecurity. This position involves developing algorithms and tools to detect, prevent, and mitigate cyber threats using AI technologies. You will be responsible for implementing and testing machine learning models, analyzing security data, and contributing to the overall research goals of the lab. Ideal candidates have strong programming skills, problem-solving abilities, and a foundational understanding of AI and security principles."
 	},
@@ -20,7 +20,7 @@
         "professor": "Dr. PL",
         "office": "Richmond Hall 220",
         "date": "9/13/2024",
-        "compensation": "0.5 cred",
+        "compensation": "0.5 unit",
         "commitment" : "1-3 hr/wk",
         "description": "Join ..."
 	},
@@ -32,7 +32,7 @@
         "prereq": "BIOL199, CS150",
         "professor": "Dr. WA",
         "office": "GW 009",
-        "compensation": "0.5 cred",
+        "compensation": "0.5 unit",
         "date": "9/10/2024",
         "commitment" : "7-10 hr/wk",
         "description": "Join ..."
@@ -45,7 +45,7 @@
         "prereq": "CHEM201, CS150, CS221",
         "professor": "Dr. Luby",
         "office": "GW 112",
-        "compensation": "1 cred",
+        "compensation": "1 unit",
         "date": "9/2/2024",
         "commitment" : "4-6 hr/wk",
         "description": "Join..."

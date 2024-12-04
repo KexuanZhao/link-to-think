@@ -136,7 +136,6 @@ function filter() {
             student_info[index].major,
             student_info[index].skill,
             student_info[index].period,
-            student_info[index].email,
             student_info[index].description
         );
         global_id++;

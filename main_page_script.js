@@ -139,10 +139,7 @@ function filter() {
             research_info[index].title,
             research_info[index].department,
             research_info[index].skills,
-            research_info[index].prereq,
             research_info[index].professor,
-            research_info[index].office,
-            research_info[index].date,
             research_info[index].compensation,
             research_info[index].commitment,
             research_info[index].description
