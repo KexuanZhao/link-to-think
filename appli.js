@@ -7,10 +7,10 @@ let progressModal = document.getElementById("progress-modal");
 let closeProgressModalBtn = document.getElementById("close-progress-modal");
 
 saveBtn.addEventListener("click", function() {
-    const now = new Date();
-    const hours = now.getHours();
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    const time = `${hours}:${minutes}`;
+    let now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes().toString().padStart(2, '0');
+    let time = `${hours}:${minutes}`;
     progressInfo.textContent = `Progress saved at ${time}`;
     progressModal.style.display = "block"
 });
