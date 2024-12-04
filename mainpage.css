@@ -89,11 +89,15 @@ a {
     margin-top: 2rem;
     width: 10rem;
     height: 3rem;
-    background-color: #00AFB9;
+    background-color: teal;
     border-width: 0;
     border-radius: 1rem;
     font-size: 1.5rem;
     color: white;
+}
+
+.final-button:hover {
+    background-color: #00AFB9;
 }
 
 .requisite {
