@@ -146,3 +146,19 @@
 #hr {
     width: 88%;
 }
+
+.btn-style {
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.btn-style:hover {
+    background-color: #00AFB9;
+}
