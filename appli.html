@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Application</title>
+        <link rel="stylesheet" href="appli_styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="headbar">
+            <!-- Title Bar with menu on the right end -->
+            <div class="title">UR Research Opening</div>
+            <div class="menu"><i class="material-icons">menu</i>
+                <ul class="submenu">
+                    <li id="name">Sophie Zhao</li>
+                    <li class="submenu-item">Profile</li>
+                    <li class="submenu-item">Starred Jobs</li>
+                    <li><a class="submenu-item" href="appli_collection.html">My Applications</a></li>
+                    <li><a class="submenu-item" href="student_messages.html">Messages</a></li>
+                    <li><a class="submenu-item" href="student_main.html">Home</a></li>
+                    <li id="logout"><a class="submenu-item" href="mainpage.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="appli">
+            <a href="student_main.html">
+                <div id="back-btn"><i class="material-icons">arrow_back</i></div>
+            </a>
+            <div id="title-app"><b>Application</b></div>
+            <ul class="job-info">
+                <li id="appli-title"><b>Lab Assistant - Computational Chemistry</b></li>
+                <li><b>Department:</b> Chemistry</li>
+                <li><b>Skills:</b> molecular modeling, data analysis</li>
+                <li><b>Pre-requisite:</b> CHEM201, CS150, CS221</li>
+                <li><b>Professor:</b> Dr. Luby</li>
+                <li><b>Date posted:</b> 9/2/2024</li>
+                <li><b>Length of the project:</b> Spring 2025</li>
+                <li><b>Weekly commitment:</b> 6 hours</li>
+                <li><b>Credit/Payment:</b> 1 unit</li>
+                <li><b>Email:</b> drluby@richmond.edu</li>
+                <li id="description"><b>Description:</b> Join Dr. Luby's research team to explore the intersection of chemistry and computational modeling. 
+                    This position involves using molecular modeling techniques to study chemical reactions, structures, and properties. 
+                    You will be responsible for running simulations, analyzing data, and contributing to research that advances our understanding 
+                    of complex chemical systems. Ideal candidates have strong analytical skills, experience with computational tools, and a solid 
+                    foundation in both chemistry and computer science.
+                </li>
+            </ul>
+            <hr id="hr">
+            <ul class="questions">
+                <li id="appli-title"><b>Apply for this position</b></li>
+                <li>1. Why are you interested in this research position?</li>
+                <textarea type="text" id="answer"></textarea>
+                <li>2. Have you taken any classes that are relevant to this research? if so, which ones?</li>
+                <textarea type="text" id="answer"></textarea>
+                <li>3. Have you done any research or projects in the past? Can you briefly describe one of them?</li>
+                <textarea type="text" id="answer"></textarea>
+            </ol>
+            <div class="btns">
+                <input type="button" value="Save Progress" id="save-progress" class="btn-style">
+                <a href="appli_submission.html"></a>
+                <input type="button" value="Submit Application" id="submit-application" class="btn-style">
+                
+            </div>
+        </div>
+        <div id="submission-modal" class="modal">
+            <div class="modal-content">
+                <div id="msg-title"><b>Successful submission</b></div>
+                <div id="msg-content">
+                    <div>You have successfully submitted your application! You can view your submission in "My Application" page anytime.</div>
+                </div>
+                <a href="student_main.html"><button id="close-modal" class="btn-style">Close</button></a>
+            </div>
+        </div>
+        <div id="progress-modal" class="modal">
+            <div class="modal-content">
+                <div id="progress-info"></div>
+                <button id="close-progress-modal" class="btn-style">Close</button>
+            </div>
+        </div>
+        <script src="appli.js"></script>
+    </body>
+</html>

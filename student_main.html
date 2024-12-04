@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="openings.css">
+    <title>UR Research Openings</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headbar">
+            <!-- Title Bar with menu on the right end -->
+            <div class="title">UR Research Opening</div>
+            <div class="menu"><i class="material-icons">menu</i>
+                <ul class="submenu">
+                    <li id="name">Sophie Zhao</li>
+                    <li class="submenu-item">Profile</li>
+                    <li class="submenu-item">Starred Jobs</li>
+                    <li><a class="submenu-item" href="appli_collection.html">My Applications</a></li>
+                    <li><a class="submenu-item" href="student_messages.html">Messages</a></li>
+                    <li><a class="submenu-item" href="student_main.html">Home</a></li>
+                    <li id="logout"><a class="submenu-item" href="mainpage.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="searchbar">
+            <!-- Search Bar -->
+            <input type="text" placeholder="Search..." id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+
+
+        <div class="filters">
+            <!-- Filtering Options -->
+            <div class="filter"> Skill:
+                <select id="skill-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Molecular modeling</option>
+                    <option>Python</option>
+                    <option>VR</option>
+                </select>
+            </div>
+            <div class="filter"> Department:
+                <select id="department-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Computer Science</option>
+                    <option>Psychology</option>
+                </select>
+            </div>
+            <div class="filter"> Commitment:
+                <select id="commitment-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>1-3 hr/wk</option>
+                    <option>4-6 hr/wk</option>
+                    <option>7-10 hr/wk</option>
+                </select>
+            </div>
+            <div class="filter"> Compensation:
+                <select id="compensation-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>0.5 unit</option>
+                    <option>1 unit</option>
+                    <option>Monetary</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="content"> 
+            <!-- Filled in with JavaScript -->
+        </div>
+    </div>
+    <script src="main_page_script.js" type="module"></script>
+</body>
+</html>

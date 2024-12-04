@@ -7,4 +7,3 @@ HTML and CSS. JS
 2. Win: Search page.
 3. Sophie: Research app.
 
-okkkk

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Messaging</title>
+  <link rel="stylesheet" href="messages.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headbar">
+            <!-- Title Bar with menu on the right end -->
+            <div class="title">Messages</div>
+            <div class="menu"><i class="material-icons">menu</i>
+                <ul class="submenu">
+                    <li id="name">Sophie Zhao</li>
+                    <li class="submenu-item">Profile</li>
+                    <li class="submenu-item">Starred Jobs</li>
+                    <li><a class="submenu-item" href="appli_collection.html">My Applications</a></li>
+                    <li><a class="submenu-item" href="student_messages.html">Messages</a></li>
+                    <li><a class="submenu-item" href="student_main.html">Home</a></li>
+                    <li id="logout"><a class="submenu-item" href="mainpage.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="messaging-container">
+            <!-- Contacts as a list on the left side -->
+            <div class="contacts">
+                <h3 id="contact-title">Contacts</h3>
+                <ul class="contact-list">
+                    <li class="active contact-item">Dr. SZ</li>
+                    <li class="contact-item">Dr. Luby</li>
+                    <li class="contact-item">Dr. WA</li>
+                    <li class="contact-item">Dr. Park</li>
+                    <li class="contact-item">Dr. Obiorah</li>
+                </ul>
+            </div>
+
+            <!-- Chat window to display messages -->
+            <div class="chat-window">
+                <div class="chat-header">Dr. SZ</div>
+                <div class="chat-messages">
+                    <div class="message sent">Can you provide more details about the virtual Reality Developer role?</div>
+                    <div class="message received">You would be creating immersive virtual experiences using 3D modeling, programming, and VR technologies for platforms. Let me know if you are interested.</div>
+                    <div class="message sent">Got it! Thank you.</div>
+                </div>
+
+                <div class="chat-input">
+                    <textarea id="chat-input-area" placeholder="Type a message..."></textarea>
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+  <script src="messages.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Headbar styling */
+.headbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* Menu styling */
+.menu {
+    text-align: right;
+    position: relative;
+}
+
+.submenu {
+    background-color: rgb(142, 232, 227);
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    list-style: none;
+    right: 0;
+}
+
+.submenu li {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: black;
+    white-space: nowrap;
+}
+
+#name {
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+.submenu-item {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu-item:hover {
+    cursor: pointer;
+    color:#00AFB9;
+}
+
+/* Search Bar Styling */
+.searchbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 0rem;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    
+}
+
+#search-input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+#search-input:focus {
+    border-color: #00AFB9;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #00AFB9;
+}
+  
+/* Message box styling */
+.messaging-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contacts styling */
+.contacts {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+#contact-title {
+    margin: 0 0 0.5rem;
+    font-size: 16px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: rgb(142, 232, 227);
+}
+
+.contact-item:hover {
+    background-color: rgb(170, 235, 232);
+}
+
+/* Chat Window styling */
+.chat-window {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-header {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(237, 235, 235);
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    overflow-y: auto; /* To keep in box */
+    background: white;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0.7rem;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: rgb(142, 232, 227);
+}
+
+.received {
+    align-self: flex-start;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Text input styling */
+.chat-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#chat-input-area{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    outline: none;
+    flex: 1;
+    border: 1px solid #ddd;
+    resize: none;
+}
+
+#chat-input-area:focus {
+    outline-color: #00AFB9;
+}
+
+#send-btn {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: lightseagreen;  
+}

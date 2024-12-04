@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="openings.css">
+    <title>UR Students</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headbar">
+            <!-- Title Bar with menu on the right end -->
+            <div class="title">UR Student Researchers</div>
+            <div class="menu"><i class="material-icons">menu</i>
+                <ul class="submenu">
+                    <li id="name">Dr. Mmachi Obiorah</li>
+                    <li class="submenu-item">Profile</li>
+                    <li class="submenu-item">Inbox</li>
+                    <li><a class="submenu-item" href="professor_messages.html">Messages</a></li>
+                    <li><a class="submenu-item" href="professor_main.html">Home</a></li>
+                    <li id="logout"><a class="submenu-item" href="mainpage.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="searchbar">
+            <!-- Search Bar -->
+            <input type="text" placeholder="Search..." id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+
+
+        <div class="filters">
+            <!-- Filtering Options -->
+            <div class="filter"> Skill:
+                <select id="skill-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Python</option>
+                    <option>Therapy</option>
+                    <option>VR</option>
+                </select>
+            </div>
+            <div class="filter"> Major:
+                <select id="major-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Computer Science</option>
+                    <option>Psychology</option>
+                </select>
+            </div>
+            <div class="filter"> Period:
+                <select id="period-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Fall</option>
+                    <option>Spring</option>
+                    <option>Summer</option>
+                </select>
+            </div>
+            <div class="filter"> Year:
+                <select id="year-filter" class="innerfilter">
+                    <option>None</option>
+                    <option>Freshman</option>
+                    <option>Sophomore</option>
+                    <option>Junior</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="content"> 
+            <!-- Filled in with JavaScript -->
+        </div>
+    </div>
+    <script src="prof_main_page_script.js" type="module"></script>
+</body>
+</html>
